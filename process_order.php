@@ -6,7 +6,7 @@ require_once __DIR__ . '/order_functions.php';
 $visitStamp = date('l, F j, Y g:i a');
 setcookie('lastVisit', $visitStamp, time() + 86400, '/');
 
-$orderSummary = order();   // saves the three session variables, returns the receipt text
+$orderSummary = order();   // save the three session variables, returns the receipt text
 ?>
 <!DOCTYPE html>
 <html lang="en">
