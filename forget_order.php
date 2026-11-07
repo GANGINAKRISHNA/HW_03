@@ -1,5 +1,5 @@
 <?php
-// Mission 4: The Forgetting Ritual (order-only reset; the lastVisit recognition cookie is kept).
+// Mission 4: The Forgetting Rituals (order-only reset; the lastVisit recognition cookie is kept).
 require_once __DIR__ . '/order_functions.php';
 
 // 1. Clear the three session variables.
